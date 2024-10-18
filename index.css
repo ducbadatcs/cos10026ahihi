@@ -1,0 +1,77 @@
+body {
+    background-image: url('bgp1.png');
+    background-size: cover;
+    font-family: 'Afacad Flux', 'Source Code Pro', Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(248, 240, 255);
+}
+nav ul img {
+    text-align: left;
+    width: 80px ;
+    text-size-adjust: 3%;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    background-color: rgb(68, 68, 72);
+    background-size: cover;
+    list-style: none;
+    float: right;
+    font-size: 96%;
+}
+nav ul li a {
+    display: block;
+    font-weight: bold;
+    padding: .625em 3.5em;
+    font-family: 'Afacad Flux';
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-right: 1px black;
+}
+main {
+    text-align: left;
+    width: 57%;
+    background-size: cover;
+    background-color: rgba(78, 78, 81, 0.786);
+    height: fit-content;
+    padding: 0.5em 0.5em
+}
+main h1 {
+    font-family: 'Afacad Flux', Arial;
+    font-size: 5em;
+    color:antiquewhite;
+}
+main h2 {
+    font-family: 'Source Code Pro', Arial;
+    font-size: 2em;
+    color: rgb(224, 222, 222);
+    font-weight: bolder;
+}
+main p {
+    font-family: 'Source Code Pro', Arial;
+    color: rgb(224, 222, 222);
+    font-size: 1em;
+}
+.apply {
+    background-color: rgb(51, 51, 53);
+    text-decoration: none;
+    font-size: 1.3em;
+    font-family: 'Afacad Flux', Arial;
+    text-decoration: none;
+    color:antiquewhite;
+    display: block;
+    width:fit-content;
+    height: fit-content;
+    font-weight: bold;
+    padding: .625em 3.5em;
+    border-radius: 10px 
+}
+footer {
+    font-family: 'Afacad Flux', Arial;
+    padding: .625em 3.5em;
+    background-color: rgb(56, 56, 58);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
